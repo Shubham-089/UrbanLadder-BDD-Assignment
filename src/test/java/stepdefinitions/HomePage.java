@@ -82,7 +82,7 @@ public class HomePage {
 	    @When("I enter valid dummy shipping details")
 	    public void enter_shipping_details() {
 	        driver.findElement(By.xpath("//input[@placeholder='Enter Email']")).sendKeys("shubhamyetonde865@gmail.com");
-	        driver.findElement(By.xpath("//input[@placeholder='PIN Code']")).sendKeys("560068");
+	        driver.findElement(By.xpath("//input[@placeholder='PIN Code']")).sendKeys("565612");
 	        driver.findElement(By.xpath("//input[@placeholder='Address']")).sendKeys("HSR Masai School, Bengaluru");
 	        driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Shubham");
 	        driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("Yetonde");
